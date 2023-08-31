@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card{display: flex;
+    width: 300px;
+    height: 120px;
+    background-color: rgb(134, 245, 245);
+  margin: 50px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(124, 132, 132);
+}
+.card img{
+   width: 45%;
+   height: 120px;
+   border-radius: 5px;
+   box-shadow:1px 1px 1px 1px rgb(154, 149, 149) ;
+   display: inline; 
+   
+}
+.card-info{
+    padding: 15px;
+}
+.card-info h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(245, 85, 85);
+    padding: 8px;
+}
+.subtitle{
+    padding: 20px;
+    font-size: 20px;
+    display: inline;
+    font-weight: bold;
+}
+.subtitle p{
+    display: inline;
+}
+.menu{
+    background-color: rgb(248, 121, 121);
+    width: 55%;
+    height: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow: 2px 2px 2px 2px rgb(151, 150, 151);
+}
+.flex ,.flex2{
+    display: flex;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(249, 249, 10);
+    text-shadow: 2px 2px 5px #e1dcdc;
+}
